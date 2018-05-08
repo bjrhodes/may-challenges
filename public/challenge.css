@@ -1,0 +1,82 @@
+.rap{
+	width: 100%;
+	padding-left: 1em;
+}
+
+.col{
+	width: 50%;
+	float: left;
+}
+
+.2_cols{
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.siteheader{
+	background-color: #AEE9AE;
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.siteheader * {
+	margin: 0;
+	padding: 0;
+}
+
+body, head {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.sitefooter {
+	margin-top: 1em;
+	height: 2em;
+	background-color: #394D39;
+	width: 100%;
+	background-image: url("Resources/Images/logo.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 1em;
+}
+
+table {
+	border-collapse: collapse;
+	width: auto;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+th {
+	border-top: none;
+}
+
+tr:last-child > td {
+	border-bottom: none;
+}
+
+th:last-child, td:last-child {
+	border-right: none;
+}
+
+th:first-child{
+	border-left: none;
+	border-top: none;
+}
+
+ td:first-child{
+	 border-bottom: none;
+	 border-left: none;
+ }
