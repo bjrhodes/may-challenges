@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/base.css">
+    <title>Documentation for challenges</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Documentation</h1>
+
+        <h2>CSS Framework</h2>
+
+        <p>The basic framework provides a tidy typographic style and the following utility CSS classes:</p>
+
+        <dl>
+            <dt>container</dt>
+            <dd>All content should sit inside a container. It keeps content to a sensible width, off the edges of the browser window and centers itself on the page.</dd>
+
+            <dt>textcenter</dt>
+            <dd>Used to align text to the centerline</dd>
+
+            <dt>textright</dt>
+            <dd>Used to align text to the right edge.</dd>
+
+            <dt>textleft</dt>
+            <dd>Used to align text to the left edge.</dd>
+
+            <dt>aligncenter</dt>
+            <dd>Centers a block level element inside it's parent.</dd>
+
+            <dt>alignright</dt>
+            <dd>Aligns a block level element to the right of its parent.</dd>
+
+            <dt>alignleft</dt>
+            <dd>Aligns a block level element to the left of its parent.</dd>
+
+            <dt>clearfix</dt>
+            <dd>When elements are floated, they lose explicit height and the parent can become zero height. Applying this class to the parent fixes that.</dd>
+        </dl>
+
+        <h2>Backend API</h2>
+
+        <p><strong>Ensure all requests are sent with the header <code>Content-Type: application/json</code> or the request will fail to log.</strong></p>
+        <p>You can test your integration by monitoring the logs in the storage folder</p>
+        <p>The backend JSON API provides the following endpoints:</p>
+
+        <h3>Analytics endpoint: <code>http://localhost:8080/analytics</code></h3>
+        <dl>
+            <dt>Method:</dt><dd> POST</dd>
+            <dt>Required input format:</dt>
+            <dd>
+                <code>{"url":"http://localhost:8080/challenge.html"}</code>
+            </dd>
+        </dl>
+
+        <h3>Newsletter endpoint: <code>http://localhost:8080/newsletter</code></h3>
+        <dl>
+            <dt>Method:</dt><dd> POST</dd>
+            <dt>Required input format:</dt>
+            <dd>
+                <code>{"name": "users name here", "email": "users-email@address.com"}</code>
+            </dd>
+        </dl>
+    </div>
+
+</body>
+</html>
