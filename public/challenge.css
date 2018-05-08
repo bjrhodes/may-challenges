@@ -1,0 +1,66 @@
+body {
+	background-color: lightgray;
+	margin: 5px
+}
+.lasagnepic{
+    width: 400px;
+    border: 3px solid black;
+    float: right;
+    position: inherit;
+    display: inline-block;
+}
+
+ol {
+	text-align: left;
+}
+
+table {
+	width: auto;
+}
+
+.table1 {
+	color: black;
+	border: none;
+} 
+
+footer {
+	background-color: black;
+	height: 30px;
+	padding: 10px;
+	font-family: georgia;
+}
+
+.footertext {
+	color: white;
+	font-family: courier;
+}
+
+.nutritionalinfo {
+		border-collapse: collapse;
+} 
+.nutritionalinfo td, .nutritionalinfo th {
+	border: 1px solid black;
+}
+
+.nutritionalinfo tr:first-child th {
+  border-top: 0;
+}
+.nutritionalinfo tr:last-child td {
+  border-bottom: 0;
+}
+.nutritionalinfo tr td:first-child,
+.nutritionalinfo tr th:first-child {
+  border-left: 0;
+}
+.nutritionalinfo tr td:last-child,
+.nutritionalinfo tr th:last-child {
+  border-right: 0;
+}
+
+header, .eatdigital {
+	background-color: lightgreen;
+	font-family: courier;
+	float: left;
+	padding: 10px
+	width: auto;
+}
