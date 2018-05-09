@@ -1,66 +1,79 @@
+* { box-sizing: border-box; }
 body {
-	background-color: lightgray;
-	margin: 5px
+	background-color: white;
+	margin: 0;
+	color: #444;
 }
-.lasagnepic{
-    width: 400px;
-    border: 3px solid black;
+h1,
+h2 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+h2 {
+	font-size: 2em;
+	margin: 2em 0 1.4em;
+}
+h3 {
+	font-size: 1.33333em;
+	margin-bottom: 1.6em;
+}
+
+.header {
+	width: 100%;
+	padding: 3em 0;
+	background-color: #aee9ae;
+}
+.intro {
+	float: left;
+	width: 50%;
+	padding: 0 2em 2em 0;
+}
+.photo {
+	width: 50%;
+    max-width: 400px;
+    border: 1px solid black;
     float: right;
-    position: inherit;
-    display: inline-block;
+	display: block;
+	margin-top: 3em;
 }
-
+.footer {
+	background-color: #394d39;
+	padding: 3em 0;
+	height: 30px;
+}
+.footertext {
+	width: 100px;
+	height: 30px;
+	text-indent: 100px;
+	line-height: 30px;
+	background: url(logo.png) center left no-repeat;
+	overflow: hidden;
+}
+.ingredients {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 0 1em;
+}
 ol {
-	text-align: left;
+	padding-left: 0;
+	margin-bottom: 4em;
 }
-
 table {
 	width: auto;
 }
-
-.table1 {
-	color: black;
-	border: none;
-}
-
-footer {
-	background-color: black;
-	height: 30px;
-	padding: 10px;
-	font-family: georgia;
-}
-
-.footertext {
-	color: white;
-	font-family: courier;
-}
-
 .nutritionalinfo {
-		border-collapse: collapse;
+	border-collapse: collapse;
 }
-.nutritionalinfo td, .nutritionalinfo th {
-	border: 1px solid black;
+.nutritionalinfo td,
+.nutritionalinfo th {
+	border-right: 1px solid #444;
 }
-
-.nutritionalinfo tr:first-child th {
-  border-top: 0;
-}
-.nutritionalinfo tr:last-child td {
-  border-bottom: 0;
-}
-.nutritionalinfo tr td:first-child,
-.nutritionalinfo tr th:first-child {
-  border-left: 0;
-}
-.nutritionalinfo tr td:last-child,
-.nutritionalinfo tr th:last-child {
+.nutritionalinfo th:last-child,
+.nutritionalinfo td:last-child {
   border-right: 0;
 }
-
-header, .eatdigital {
-	background-color: lightgreen;
-	font-family: courier;
-	float: left;
-	padding: 10px
-	width: auto;
+.nutritionalinfo tr {
+	border-bottom: 1px solid #444;
+}
+.nutritionalinfo tr:last-child {
+  border-bottom: 0;
 }
