@@ -17,6 +17,10 @@ h3 {
 	margin-bottom: 1.6em;
 }
 
+.popup h2 {
+	margin: 0;
+}
+
 .header {
 	width: 100%;
 	padding: 3em 0;
@@ -76,4 +80,61 @@ table {
 }
 .nutritionalinfo tr:last-child {
   border-bottom: 0;
+}
+
+.newsletter {
+	background-color: white;
+	position: fixed;
+	padding: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.popup {
+	background-color: rgba(0, 50, 0, 0.7);
+	position: fixed;
+	width: 100%
+	height: 100%;
+	padding: 25px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.potato {
+	border:1px solid black;
+	font-size: 14px;
+	width: 100%;
+	color: grey;
+	padding: 3px;
+}
+
+.potato2 {
+	border:1px solid black;
+	font-size: 14px;
+	width: 100%;
+	color: grey;
+	padding: 3px;
+}
+
+.potato4 {
+	border:0px solid black;
+	font-size: 18px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: 'impact';
+	padding: 5px;
+}
+
+.font {
+	font-size: 14px;
+	text-align: left;
+	font-style: bold;
+
 }
