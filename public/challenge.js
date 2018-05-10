@@ -13,6 +13,9 @@ $(document).ready(function() {
 		    data: JSON.stringify({"name": name, "email": email}),
 		    contentType: 'application/json'
 	   	});
+
+		 
+		 $(".popup") .remove();
 	});
 
 
