@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
-
+	$(".close-button").click(function(){
+		$(".popup").remove();
+	});
+	$(document).keyup(function(e){
+		if (e.which == 27){
+			$(".popup").remove()
+		}
+		;
+	});
 
 	$(".newsletter").submit(function(e){
 		e.preventDefault();
@@ -13,7 +21,6 @@ $(document).ready(function() {
 		    data: JSON.stringify({"name": name, "email": email}),
 		    contentType: 'application/json'
 	   	});
-
 		 
 		 $(".popup") .remove();
 	});
